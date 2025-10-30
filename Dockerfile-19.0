@@ -1,4 +1,4 @@
-ARG DISTRO=noble
+ARG DISTRO=jammy
 
 FROM docker.io/ubuntu:$DISTRO
 

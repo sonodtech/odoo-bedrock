@@ -13,7 +13,7 @@ ENV \
   LANG=C.UTF-8 \
   LC_ALL=C.UTF-8 \
   DEBIAN_FRONTEND=noninteractive 
-#  KWKHTMLTOPDF_SERVER_URL=http://kwkhtmltopdf
+  KWKHTMLTOPDF_SERVER_URL=http://wkhtmltopdf.sonod.local:8080
 
 
 ADD https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu/dists/$DISTRO/Release /tmp/
@@ -25,7 +25,7 @@ RUN --mount=type=bind,source=./install,target=/tmp/install \
   && /tmp/install/python3.sh \
   && /tmp/install/pgdg.sh \
   && /tmp/install/post-install-clean.sh
- # && /tmp/install/wkhtmltopdf.sh \
+  && /tmp/install/wkhtmltopdf.sh \
 
 # isolate from system python libraries
 RUN set -x \

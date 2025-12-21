@@ -13,7 +13,7 @@ ENV \
   LANG=C.UTF-8 \
   LC_ALL=C.UTF-8 \
   DEBIAN_FRONTEND=noninteractive 
-  KWKHTMLTOPDF_SERVER_URL=http://wkhtmltopdf.sonod.local:8080
+  KWKHTMLTOPDF_SERVER_URL=http://kwkhtmltopdf
 
 
 ADD https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu/dists/$DISTRO/Release /tmp/

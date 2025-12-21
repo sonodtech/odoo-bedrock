@@ -12,7 +12,7 @@ ENV \
   ODOO_BIN=odoo \
   LANG=C.UTF-8 \
   LC_ALL=C.UTF-8 \
-  DEBIAN_FRONTEND=noninteractive 
+  DEBIAN_FRONTEND=noninteractive \
   KWKHTMLTOPDF_SERVER_URL=http://kwkhtmltopdf
 
 

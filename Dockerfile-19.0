@@ -25,7 +25,7 @@ RUN --mount=type=bind,source=./install,target=/tmp/install \
   && /tmp/install/python3.sh \
   && /tmp/install/pgdg.sh \
   && /tmp/install/post-install-clean.sh \
-  && /tmp/install/wkhtmltopdf.sh \
+  && /tmp/install/wkhtmltopdf.sh 
 
 # isolate from system python libraries
 RUN set -x \

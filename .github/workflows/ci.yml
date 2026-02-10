@@ -100,8 +100,8 @@ jobs:
             PYTHONBIN: python3.12
             DISTRO: noble
           - ODOOVERSION: "19.0"
-            PYTHONTAG: py311
-            PYTHONBIN: python3.11
+            PYTHONTAG: py313
+            PYTHONBIN: python3.13
             DISTRO:  jammy           
 
     steps:

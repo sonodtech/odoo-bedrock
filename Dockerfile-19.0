@@ -5,7 +5,7 @@ FROM docker.io/ubuntu:$DISTRO
 LABEL org.opencontainers.image.authors="SONOD"
 
 ARG DISTRO
-ARG PYTHONBIN=python3.11
+ARG PYTHONBIN=python3.13
 
 ENV \
   ODOO_VERSION=19.0 \
